@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('background_image1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.parent
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    background-color: #46cff877;
+    height: 40%;
+    width: 40%;
+    box-shadow: #050d1077;
+
+}
+.quote_text{
+    margin: 10px;
+    height: 60%;
+    font-family: 'Fasthand', cursive;
+    max-width: 100%;
+    overflow: auto;
+    font-size: 45px;
+    margin: 5px;
+}
+.quoter{
+    font-family: 'Fasthand', cursive;
+    margin: 5px;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #03283377;
+    box-shadow: none;
+    cursor: pointer;
+    height: 10%;
+    margin: 5px;
+}
+.btn:hover
+{
+    background-color: #03283393;
+}
